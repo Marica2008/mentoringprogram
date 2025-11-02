@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Od Ideje do Strukture - Mentoring</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        *::selection {
+            background: transparent;
+        }
+        
+        *::-moz-selection {
+            background: transparent;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #2c2c2c;
+            background: #fafaf8;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 70px 30px;
+        }
+        
+        .hero {
+            margin-bottom: 70px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+        
+        .intro {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            color: #3a3a3a;
+            margin-bottom: 40px;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .highlight {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        
+        .divider {
+            height: 1px;
+            background: #d0d0d0;
+            margin: 60px 0;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 60px 40px;
+            background: #1a1a1a;
+            color: white;
+            margin: 70px 0;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.15rem;
+            margin-bottom: 35px;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 20px 60px;
+            background: white;
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+            text-transform: uppercase;
+        }
+        
+        .cta-button:hover {
+            background: transparent;
+            color: white;
+        }
+        
+        .about {
+            background: #f5f5f3;
+            padding: 50px 40px;
+            margin: 60px 0;
+        }
+        
+        .about p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.9rem;
+            }
+            
+            .container {
+                padding: 50px 25px;
+            }
+            
+            .intro {
+                font-size: 1.1rem;
+            }
+            
+            .cta-section {
+                padding: 40px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Dobrodošla na mentoring koji će ti dati strukturu, ne motivaciju.</h1>
+            <p class="intro">Personalizovani rad sa mnom gdje pretvaramo tvoju ideju u strukturu koju možeš pokrenuti odmah. Za ženu koja ne želi još jedan kurs ili inspirativni govor, već tačnu mapu odakle i kako — prilagođenu tebi.</p>
+        </div>
+
+        <div class="section">
+            <p>Kako te znam?</p>
+            
+            <p>Kad pogledaš oko sebe, svjesna si koliko si drugačija. Oduvijek ti je bilo jasno da imaš to nešto u sebi što ti ne dozvoljava da pristaješ na prosječnost.</p>
+            
+            <p>Znaš da to želiš — biznis koji je tvoj. Koji ima smisla. Koji se uklapa u tvoj život, a ne ti u njega.</p>
+            
+            <p>Posvećenost ti nikad nije bila problem. Spremnost da radiš — takođe.</p>
+            
+            <p>Ali... Imaš ideju. Možda čak i više njih. I svaki put kad sjedneš da počneš — zaustaviš se.</p>
+            
+            <p>Jer ne znaš <span class="highlight">odakle</span>.</p>
+            
+            <p>Jer imaš hiljadu pitanja i nijedan jasan odgovor.</p>
+            
+            <p>Naučila si sve i svašta. Pojmove si odavno savladala. Ulagala si na sve strane. Upijala raznorazne savjete. Implementirala strategije i taktike.</p>
+            
+            <p>I sad... kao da si na prekretnici. Potpuno svjesna da te iste akcije i isti pristup neće te dovesti do prvog klijenta.</p>
+            
+            <p><span class="highlight">Umorna od traženja načina, ti si sad spremna postati način.</span></p>
+            
+            <p>Umorna od uklapanja u kalupe, ti si sad spremna stvoriti svoj kalup.</p>
+            
+            <p>Umorna od konstantnog planiranja "kad krenem", ti si sad spremna krenuti.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <p>Zamišljaš dan kada ustaneš i više ne tražiš novu ideju. Nego gradiš onu koju si izabrala.</p>
+            
+            <p>I dalje imaš posao. I dalje imaš djecu koja te traže. I dalje imaš majku koja zove. I dalje imaš veš koji čeka. Ali nešto je drugačije.</p>
+            
+            <p>Znaš da imaš sat vremena prije nego što sve krene. I taj sat nije više "možda da pogledam..." — nego znaš: <span class="highlight">danas ovo</span>. Otvoriš laptop. Ne razmišljaš. Radiš. Pola sata. I eto ga — korak napravljen. Mali. Ali tvoj.</p>
+            
+            <p>Ideš na posao. Ali u glavi više nije haos. Nije "kad ću ja to ikad". Nego znaš: večeras nastavljam odatle. Jer imaš plan. Jasnu mapu. Ne moraš da se pitaš šta dalje — <span class="highlight">znaš</span>.</p>
+            
+            <p>Dolazi te strah: "A šta ako me neko vidi online i zapita?" Ali imaš odgovor spreman. Jer znaš šta nudiš. Kome. Zašto. Nije magla. Nego jasnoća.</p>
+            
+            <p>Navečer djeca spavaju. Umorna si. Ali sjediš. Ne da skroluješ tuđe. Nego gradiš svoje. Dvadeset minuta. I onda laptop zatvoriš. I umjesto da ležeš sa onim poznatim: "Opet ništa nisam napravila" — ležeš sa: <span class="highlight">"Evo ga. Još jedan korak."</span></p>
+            
+            <p>Za tri mjeseca neko te pita: "Kako ti to sve stiže?" A ti znaš — ne stižem sve. Ali ovo moje — gradim. Polako. Korak po korak. Pored svega. I ne odustajem. Jer imam strukturu koja me drži. Čak i kada nemam snage.</p>
+        </div>
+
+        <div class="cta-section">
+            <h2>To je ovaj mentoring</h2>
+            <p>Personalizovano. Konkretno. Bez fluff-a.<br>Transformacija, ne informacija.</p>
+            <a href="#" class="cta-button">Prijavi se</a>
+        </div>
+
+        <div class="section">
+            <h2 style="font-size: 1.8rem; margin-bottom: 30px; font-weight: 400;">Ovaj masterclass je za tebe koja:</h2>
+            
+            <p>• Imaš ideju (ili više njih) ali ne znaš odakle da počneš</p>
+            
+            <p>• Znaš da možeš, ali ne znaš kako da to претвориш u konkretnu ponudu</p>
+            
+            <p>• Umorila si se od traženja savršene ideje i spremna si da izabereš jednu i gradiš</p>
+            
+            <p>• Želiš biznis koji se uklapa u tvoj život, ne još jednu obavezu koja te opterećuje</p>
+            
+            <p>• Ne želiš još jedan kurs, još jednu motivaciju — već tačan plan šta radiš prvi dan, drugi dan, treći dan</p>
+            
+            <p>• Spremna si DA KREĆE. Ne za šest mjeseci. Sad.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="about">
+            <p>Ja sam Marica.</p>
+            
+            <p>Radim sa ženama koje ne žele još jedan kurs, još jednu inspirativnu priču, još jedno "možeš ti to".</p>
+            
+            <p>Radim sa onima koje <span class="highlight">znaju šta hoće</span> — ali im treba struktura, jasnoća i neko ko razumije da nemaju luksuz da eksperimentišu godinama.</p>
+            
+            <p>Ovaj mentoring nije motivacioni govor. To je transformacija. Konkretna. Bez generičkih savjeta. Bez priča kako je neko drugi uspio.</p>
+            
+            <p>Za tebe. Za onu jednu ženu koja je spremna da prestane da planira — i počne da gradi.</p>
+        </div>
+
+        <div class="section">
+            <h2 style="font-size: 1.8rem; margin-bottom: 30px; font-weight: 400;">Transformacija:</h2>
+            
+            <p>Postaješ žena koja ne traži više savršenu ideju — nego gradi svoju.</p>
+            
+            <p>Postaješ žena koja ustaje sa jasnoćom, ne sa haosom u glavi.</p>
+            
+            <p>Postaješ žena koja zatvara laptop sa mirom, ne sa osjećajem "opet ništa nisam napravila".</p>
+            
+            <p>Postaješ žena koja na pitanje "šta radiš?" ne kaže više "razmišljam o tome" — nego "evo, ovo radim".</p>
+            
+            <p>Postaješ žena koja ima strukturu koja je vodi — čak i kada nema snage.</p>
+            
+            <p>Postaješ žena koja zna da može. I koja to dokazuje sebi svaki dan. Korak po korak.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2 style="font-size: 1.8rem; margin-bottom: 30px; font-weight: 400; text-align: center;">Paket mentoringa</h2>
+            
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px;"><span class="highlight">5 sesija po 90 minuta | Zoom | Email podrška između sesija</span></p>
+            
+            <div style="background: #f5f5f3; padding: 40px; text-align: center; margin: 40px 0;">
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">Opcije plaćanja:</p>
+                <p style="font-size: 1.3rem; margin-bottom: 15px;"><span class="highlight">359 EUR</span> — jednokratno</p>
+                <p style="font-size: 1.3rem;"><span class="highlight">2 x 190 EUR</span> — na rate</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Spremna si?</h2>
+            <p>Popuni formular ispod i počnimo.</p>
+        </div>
+
+        <div class="section">
+            <form id="mentoringForm" action="https://formspree.io/f/mvgvoqlk" method="POST" style="background: white; padding: 50px; max-width: 600px; margin: 0 auto;">
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; color: #1a1a1a;">Ime i prezime</label>
+                    <input type="text" name="name" required style="width: 100%; padding: 12px; border: 1px solid #d0d0d0; font-size: 1rem; font-family: Georgia, serif;">
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; color: #1a1a1a;">Email</label>
+                    <input type="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #d0d0d0; font-size: 1rem; font-family: Georgia, serif;">
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; color: #1a1a1a;">Gdje si trenutno?</label>
+                    <select name="situation" required style="width: 100%; padding: 12px; border: 1px solid #d0d0d0; font-size: 1rem; font-family: Georgia, serif;">
+                        <option value="">Izaberi...</option>
+                        <option value="idea-no-start">Imam ideju, ali ne znam odakle da počnem</option>
+                        <option value="multiple-ideas">Imam više ideja i ne znam koju da izaberem</option>
+                        <option value="stuck">Imam ideju i neki plan, ali stojim u mjestu</option>
+                        <option value="tried-stopped">Pokušala sam da krenem, ali sam stala</option>
+                        <option value="other">Nešto drugo</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; color: #1a1a1a;">Šta želiš da postigneš kroz mentoring?</label>
+                    <textarea name="goal" required rows="5" style="width: 100%; padding: 12px; border: 1px solid #d0d0d0; font-size: 1rem; font-family: Georgia, serif; resize: vertical;"></textarea>
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; color: #1a1a1a;">Opcija plaćanja</label>
+                    <select name="payment" required style="width: 100%; padding: 12px; border: 1px solid #d0d0d0; font-size: 1rem; font-family: Georgia, serif;">
+                        <option value="">Izaberi...</option>
+                        <option value="full">359 EUR — jednokratno</option>
+                        <option value="installments">2 x 190 EUR — na rate</option>
+                    </select>
+                </div>
+
+                <button type="submit" style="width: 100%; padding: 18px; background: #1a1a1a; color: white; border: none; font-size: 1rem; font-weight: 500; letter-spacing: 0.5px; cursor: pointer; text-transform: uppercase; transition: all 0.3s ease;">
+                    POŠALJI PRIJAVU
+                </button>
+            </form>
+        </div>
+
+        <div class="section" style="margin-top: 70px; text-align: center; font-style: italic; font-size: 1.15rem; color: #3a3a3a;">
+            <p>Ako si ta žena — vidimo se unutra.</p>
+        </div>
+    </div>
+</body>
+</html>
